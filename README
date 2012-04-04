@@ -1,0 +1,27 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4003
+
+DESCRIPTION
+This filetype plugin provides movement commands and text objects for Visual
+Basic Script classes, functions, properties, and subs.
+
+USAGE
+                        Move around VBScript functions, properties and subs:
+]m                      Go to [count] next start of a function / property / sub.
+]M                      Go to [count] next end of a function / property / sub.
+[m                      Go to [count] previous start of a function / property / sub.
+[M                      Go to [count] previous end of a function / property / sub.
+
+]gm                     Go to [count] next start of a class.
+]gM                     Go to [count] next end of a class.
+[gm                     Go to [count] previous start of a class.
+[gM                     Go to [count] previous end of a class.
+
+im                      "inner method" text object, select [count] function /
+                        property / sub contents.
+am                      "a method" text object, select [count] function /
+                        property / subs, including the function / property / sub
+                        definition and 'end ...'.
+
+igm                     "inner class" text object, select [count] class contents.
+agm                     "a class" text object, select [count] classes, including
+                        the class definition and "end class"
